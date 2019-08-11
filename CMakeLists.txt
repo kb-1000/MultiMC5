@@ -252,6 +252,7 @@ add_subdirectory(libraries/rainbow) # Qt extension for colors
 add_subdirectory(libraries/iconfix) # fork of Qt's QIcon loader
 add_subdirectory(libraries/LocalPeer) # fork of a library from Qt solutions
 add_subdirectory(libraries/classparser) # google analytics library
+add_subdirectory(libraries/javalauncher) # JNI launcher for Java to fix graphics drivers
 
 ############################### Built Artifacts ###############################
 
