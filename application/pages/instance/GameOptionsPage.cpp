@@ -36,5 +36,3 @@ void GameOptionsPage::closedImpl()
     // m_model->unobserve();
 }
 
-#include "GameOptionsPage.moc"
-

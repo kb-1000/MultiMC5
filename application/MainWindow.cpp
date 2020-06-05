@@ -73,7 +73,6 @@
 #include "groupview/GroupView.h"
 #include "groupview/InstanceDelegate.h"
 #include "widgets/LabeledToolButton.h"
-#include "widgets/ServerStatus.h"
 #include "dialogs/NewInstanceDialog.h"
 #include "dialogs/ProgressDialog.h"
 #include "dialogs/AboutDialog.h"
@@ -718,9 +717,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new MainWindow
     connect(MMC, &MultiMC::globalSettingsClosed, this, &MainWindow::globalSettingsClosed);
 
     m_statusLeft = new QLabel(tr("No instance selected"), this);
-    m_statusRight = new ServerStatus(this);
     statusBar()->addPermanentWidget(m_statusLeft, 1);
-    statusBar()->addPermanentWidget(m_statusRight, 0);
 
     // Add "manage accounts" button, right align
     QWidget *spacer = new QWidget();

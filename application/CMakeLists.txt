@@ -204,8 +204,6 @@ SET(MULTIMC_SOURCES
     widgets/PageContainer.cpp
     widgets/PageContainer.h
     widgets/PageContainer_p.h
-    widgets/ServerStatus.cpp
-    widgets/ServerStatus.h
     widgets/VersionListView.cpp
     widgets/VersionListView.h
     widgets/VersionSelectWidget.cpp
